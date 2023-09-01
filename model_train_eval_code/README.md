@@ -28,6 +28,12 @@ Arguments:
 
 The `sentence-transformer` will automatically download the specified pre-trained model.
 
+We recommend cloning the pre-trained model into the `/FSIBP/` directory before running train.py to avoid possible network interruption problems when the `sentiment-transformer` automatically downloads the model. E.g.:
+
+```bash
+git clone https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2/
+```
+
 ## Testing
 
 To train the model, run train.py with the following command:
