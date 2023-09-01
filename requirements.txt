@@ -1,0 +1,6 @@
+torch
+scikit-learn
+sentence_transformers
+kneed
+beautifulsoup4
+requests
